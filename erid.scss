@@ -60,7 +60,7 @@ $spacing-length: 5;
     }
 }
 
-.display-flex {
+.display-flex, .slot {
     display: flex;
 
     &.flex-row {
@@ -112,6 +112,9 @@ $spacing-length: 5;
         } 
     }
 
+}
+.slot {
+    align-items: center;
 }
 
 .width-fill {

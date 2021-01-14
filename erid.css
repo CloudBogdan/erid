@@ -292,124 +292,130 @@ body, html, #root, .app {
   padding-left: 50px;
 }
 
-.display-flex {
+.display-flex, .slot {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.display-flex.flex-row {
+.display-flex.flex-row, .slot.flex-row {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
 }
 
-.display-flex.flex-column {
+.display-flex.flex-column, .slot.flex-column {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.display-flex.align-items-center {
+.display-flex.align-items-center, .slot.align-items-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.display-flex.align-items-start {
+.display-flex.align-items-start, .slot.align-items-start {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
 }
 
-.display-flex.align-items-end {
+.display-flex.align-items-end, .slot.align-items-end {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
 }
 
-.display-flex.justify-between {
+.display-flex.justify-between, .slot.justify-between {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.display-flex.justify-center {
+.display-flex.justify-center, .slot.justify-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.display-flex.justify-start {
+.display-flex.justify-start, .slot.justify-start {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
 }
 
-.display-flex.justify-end {
+.display-flex.justify-end, .slot.justify-end {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
 }
 
-.display-flex .align-self-center {
+.display-flex .align-self-center, .slot .align-self-center {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
-.display-flex .align-self-start {
+.display-flex .align-self-start, .slot .align-self-start {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
 }
 
-.display-flex .align-self-end {
+.display-flex .align-self-end, .slot .align-self-end {
   -ms-flex-item-align: end;
       -ms-grid-row-align: end;
       align-self: end;
 }
 
-.display-flex:not(.flex-column).gap-1 > *:not(:last-child) {
+.display-flex:not(.flex-column).gap-1 > *:not(:last-child), .slot:not(.flex-column).gap-1 > *:not(:last-child) {
   margin-right: 10px;
 }
 
-.display-flex.flex-column.gap-1 > *:not(:last-child) {
+.display-flex.flex-column.gap-1 > *:not(:last-child), .slot.flex-column.gap-1 > *:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.display-flex:not(.flex-column).gap-2 > *:not(:last-child) {
+.display-flex:not(.flex-column).gap-2 > *:not(:last-child), .slot:not(.flex-column).gap-2 > *:not(:last-child) {
   margin-right: 20px;
 }
 
-.display-flex.flex-column.gap-2 > *:not(:last-child) {
+.display-flex.flex-column.gap-2 > *:not(:last-child), .slot.flex-column.gap-2 > *:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.display-flex:not(.flex-column).gap-3 > *:not(:last-child) {
+.display-flex:not(.flex-column).gap-3 > *:not(:last-child), .slot:not(.flex-column).gap-3 > *:not(:last-child) {
   margin-right: 30px;
 }
 
-.display-flex.flex-column.gap-3 > *:not(:last-child) {
+.display-flex.flex-column.gap-3 > *:not(:last-child), .slot.flex-column.gap-3 > *:not(:last-child) {
   margin-bottom: 30px;
 }
 
-.display-flex:not(.flex-column).gap-4 > *:not(:last-child) {
+.display-flex:not(.flex-column).gap-4 > *:not(:last-child), .slot:not(.flex-column).gap-4 > *:not(:last-child) {
   margin-right: 40px;
 }
 
-.display-flex.flex-column.gap-4 > *:not(:last-child) {
+.display-flex.flex-column.gap-4 > *:not(:last-child), .slot.flex-column.gap-4 > *:not(:last-child) {
   margin-bottom: 40px;
 }
 
-.display-flex:not(.flex-column).gap-5 > *:not(:last-child) {
+.display-flex:not(.flex-column).gap-5 > *:not(:last-child), .slot:not(.flex-column).gap-5 > *:not(:last-child) {
   margin-right: 50px;
 }
 
-.display-flex.flex-column.gap-5 > *:not(:last-child) {
+.display-flex.flex-column.gap-5 > *:not(:last-child), .slot.flex-column.gap-5 > *:not(:last-child) {
   margin-bottom: 50px;
+}
+
+.slot {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .width-fill {
