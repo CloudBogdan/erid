@@ -2,8 +2,8 @@
 Erid - css flexbox class collection
 
 ## Docs.
-`m` and `p` - `margin` and `padding`
-1 - 5 - levels of `margin` or `padding` (example: `m2` = `margin: 20px`)
+`m`, `p` and `gap` - `margin` and `padding`
+1 - 5 - levels of `margin`, `padding` or `gap` (example: `m2` = `margin: 20px`)
 `r`, `l`, `t`, `b`, `v`, `h` - direction of `margin` or `padding`
 ```CSS
 /* display-flex */ display: flex;

@@ -103,6 +103,15 @@ $spacing-length: 5;
         align-self: end;
     }
 
+    @for $i from 1 through $spacing-length {
+        &:not(.flex-column).gap-#{$i} > *:not(:last-child) {
+            margin-right: $spacing * $i;
+        } 
+        &.flex-column.gap-#{$i} > *:not(:last-child) {
+            margin-bottom: $spacing * $i;
+        } 
+    }
+
 }
 
 .width-fill {

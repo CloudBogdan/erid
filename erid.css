@@ -372,6 +372,46 @@ body, html, #root, .app {
       align-self: end;
 }
 
+.display-flex:not(.flex-column).gap-1 > *:not(:last-child) {
+  margin-right: 10px;
+}
+
+.display-flex.flex-column.gap-1 > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.display-flex:not(.flex-column).gap-2 > *:not(:last-child) {
+  margin-right: 20px;
+}
+
+.display-flex.flex-column.gap-2 > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.display-flex:not(.flex-column).gap-3 > *:not(:last-child) {
+  margin-right: 30px;
+}
+
+.display-flex.flex-column.gap-3 > *:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.display-flex:not(.flex-column).gap-4 > *:not(:last-child) {
+  margin-right: 40px;
+}
+
+.display-flex.flex-column.gap-4 > *:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.display-flex:not(.flex-column).gap-5 > *:not(:last-child) {
+  margin-right: 50px;
+}
+
+.display-flex.flex-column.gap-5 > *:not(:last-child) {
+  margin-bottom: 50px;
+}
+
 .width-fill {
   width: 100% !important;
 }
